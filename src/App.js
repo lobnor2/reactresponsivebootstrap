@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
+import HowItWorks from "./HowItWorks";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* <h1>Hello World This is lobsang Norbu</h1> */}
       <Navbar />
       <Header />
+      <HowItWorks />
     </>
   );
 }

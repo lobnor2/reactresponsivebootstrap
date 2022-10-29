@@ -5,7 +5,7 @@
 }
 
 :root {
-  --bgcolor: #f1f5fd;
+  --bgcolor: #f8f9fa;
   --primary-color: #6f5de7;
   --text-color: #828286;
   --main-text-color: #333333;
@@ -16,6 +16,7 @@
 } */
 
 body {
+  background: var(--bgcolor);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -29,9 +30,6 @@ code {
     monospace;
 }
 
-.navbar-bg {
-  background-color: var(--bgcolor);
-}
 .navbar li {
   margin-right: 1.3rem;
 }
@@ -40,6 +38,10 @@ code {
   color: var(--primary-color);
   text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
 }
+/* .navbar li a:hover ::after {
+  content: "hello";
+  display: block;
+} */
 .btn-style {
   border: 1px solid var(--primary-color);
   border-radius: 2rem;
@@ -61,26 +63,80 @@ code {
 }
 
 .header-left-side {
-  border: 1px solid red;
+  /* border-right: 1px solid red; */
   /* margin-right: 1px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 4rem;
 }
 .header-left-side h1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   line-height: 4rem;
+  margin-bottom: 1rem;
 }
 .header-left-side p {
-  border: 1px solid black;
-  padding: 0 2.5rem;
+  /* border: 1px solid black; */
+  text-align: justify;
+  /* padding: 0 2.5rem; */
+  margin-bottom: 2rem;
+  color: var(--text-color);
 }
-.header-right-side {
-  border: 1px solid red;
+.getearly {
+  /* text-align: left; */
+  /* border: 1px solid black; */
+  margin-bottom: -0.2rem;
+  color: var(--text-color);
+}
+#emailinput {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.subscribe {
+  background-color: white;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.subscribe:hover {
+  /* transition: scale 0.4s ease-out; */
+  scale: 1.03;
+  /* border: none; */
+}
+.header-left-side h3 {
+  color: var(--main-text-color);
 }
 
-body {
-  /* background-color: var(--bgcolor); */
+/* .header-right-side {
+  border: 1px solid red;
+} */
+
+.container {
+  border: 1px solid black;
 }
-/* responsive design  */
+
+/* .howdoesitwork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.worklist1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+.worklist1 img {
+} */
