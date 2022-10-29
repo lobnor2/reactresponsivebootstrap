@@ -24,7 +24,7 @@ const HowItWorks = () => {
 
       <section>
         <div className="work-container container">
-          <h1 className="text-center">How does it work</h1>
+          <h1 className="text-center howdoesitwork">How does it work?</h1>
           <div className="row">
             {workData.map((currentelement) => {
               return (
@@ -33,7 +33,7 @@ const HowItWorks = () => {
                     <i
                       className={`fontawesome-style ${currentelement.logo}`}
                     ></i>
-                    <h2 className="subheading">{currentelement.title}</h2>
+                    <h3 className="subheading">{currentelement.title}</h3>
                     <p className="w-100">{currentelement.info}</p>
                   </div>
                 </>

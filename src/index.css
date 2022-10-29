@@ -115,9 +115,9 @@ code {
   border: 1px solid red;
 } */
 
-.container {
+/* .container {
   border: 1px solid black;
-}
+} */
 
 /* .howdoesitwork {
   display: flex;
@@ -140,3 +140,27 @@ code {
 }
 .worklist1 img {
 } */
+
+.work-container {
+  border: 1px solid rgba(183, 171, 255, 0.9);
+  background-color: white;
+  height: 50vh;
+  box-shadow: 0 0.2rem 9px 2px rgba(183, 171, 255, 0.3);
+}
+.howdoesitwork {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.fontawesome-style {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+/* .row {
+  border: 1px solid red;
+} */
+.work-container-subdiv {
+  /* border: 1px solid red; */
+  padding: 0 3rem;
+}
