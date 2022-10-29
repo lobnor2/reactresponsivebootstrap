@@ -28,7 +28,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link " aria-current="page" href="#">
                     Home
                   </a>
                 </li>
@@ -49,10 +49,10 @@ const Navbar = () => {
                 </li>
               </ul>
 
-              <button className="btn btn-success mx-2" type="submit">
+              <button className=" mx-2 btn-style " type="submit">
                 Log in
               </button>
-              <button className="btn btn-outline-success" type="submit">
+              <button className=" btn-style" type="submit">
                 Sign up
               </button>
             </div>
