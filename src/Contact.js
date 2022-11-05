@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <section className="contactus-section">
+      <section className="contactus-section" style={{ marginTop: "5rem" }}>
         <div className="containerform">
           <form method="post">
             <h1 className="h1heading">Contact Us</h1>
