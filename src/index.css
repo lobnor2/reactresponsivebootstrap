@@ -176,8 +176,10 @@ code {
   margin: 0 7rem;
   box-shadow: 2px 2px 10px 5px rgba(45, 45, 45, 0.175);
   background-color: white;
+  height: 40vh;
   border-radius: 20px;
 }
+
 .h1heading {
   margin-bottom: 2rem;
   text-align: center;
@@ -185,4 +187,17 @@ code {
 
 .inputone {
   margin-bottom: 0;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: white;
+  padding: 2rem 0;
+  height: 30vh;
+}
+footer ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }

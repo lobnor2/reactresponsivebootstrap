@@ -10,10 +10,10 @@ const Contact = () => {
             <div className="row">
               <div className="col-12 col-lg-6 contactt">
                 <input
-                  type="text"
+                  type="email"
                   name=""
                   id=""
-                  placeholder="First Name"
+                  placeholder="Email"
                   className="form-control inputone
                 "
                 />
@@ -23,56 +23,13 @@ const Contact = () => {
                   type="text"
                   name=""
                   id=""
-                  placeholder="last Name"
+                  placeholder="Message"
                   className="form-control
                "
                 />
               </div>
             </div>
-            <div className="row">
-              <div className="col-12 col-lg-6 contactt">
-                <input
-                  type="number"
-                  name=""
-                  id=""
-                  placeholder="Phone number"
-                  className="form-control
-                "
-                />
-              </div>
-              <div className="col-12 col-lg-6 contactt">
-                <input
-                  type="email"
-                  name=""
-                  id=""
-                  placeholder="Email"
-                  className="form-control
-               "
-                />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Add Address"
-                  className="form-control"
-                />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Enter your message"
-                  className="form-control"
-                />
-              </div>
-            </div>
+
             <button type="submit" className="btn btn-style w-100">
               Submit
             </button>

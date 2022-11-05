@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -28,33 +29,48 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" href="#">
+                  <Link to="/" className="nav-link">
                     Home
-                  </a>
+                  </Link>
+                  {/* <a className="nav-link " aria-current="page" href="#">
+                    Home
+                  </a> */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/services" className="nav-link">
                     Services
-                  </a>
+                  </Link>
+                  {/* <a className="nav-link" href="#">
+                    Services
+                  </a> */}
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  {/* <a className="nav-link" href="#">
                     About
-                  </a>
+                  </a> */}
+                  <Link to="/about" className="nav-link">
+                    About
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  {/* <a className="nav-link" href="#">
                     Contact
-                  </a>
+                  </a> */}
+                  <Link to="/contact" className="nav-link">
+                    Contact
+                  </Link>
                 </li>
               </ul>
-
-              <button className=" mx-2 btn-style " type="submit">
-                Log in
-              </button>
-              <button className=" btn-style" type="submit">
-                Sign up
-              </button>
+              <Link to="/login">
+                <button className=" mx-2 btn-style " type="submit">
+                  Log in
+                </button>
+              </Link>
+              <Link to="/signup">
+                <button className=" btn-style" type="submit">
+                  Sign up
+                </button>
+              </Link>
             </div>
           </div>
         </nav>
